@@ -86,7 +86,7 @@ Adding `?w=1` to any diff URL will remove any changes only in whitespace, enabli
 [*Read more about GitHub secrets.*](https://github.com/blog/967-github-secrets)
 
 ### Adjust Tab Space
-Adding `?ts=4` to a diff or file URL will display tab characters as 4 spaces wide instead of the default 8. The number after `ts` can be adjusted to suit your preference. This does not work on Gists, or raw file views, but a [Chrome](https://chrome.google.com/webstore/detail/tab-size-on-github/ofjbgncegkdemndciafljngjbdpfmbkn) or [Opera extension](https://addons.opera.com/en/extensions/details/github-tab-size/) can automate this.
+Adding `?ts=4` to a diff or file URL will display tab characters as 4 spaces wide instead of the default 8. The number after `ts` can be adjusted to suit your preference. This does not work on Gists, or raw file views, but a [Chrome extension](https://chrome.google.com/webstore/detail/tab-size-on-github/ofjbgncegkdemndciafljngjbdpfmbkn) can automate this.
 
 Here is a Go source file before adding `?ts=4`:
 
@@ -256,7 +256,7 @@ https://github.com/rails/rails/blob/master/activemodel/lib/active_model.rb#L53-L
 ![Line Highlighting](http://i.imgur.com/8AhjrCz.png)
 
 ### Closing Issues via Commit Messages
-If a particular commit fixes an issue, any of the keywords `fix/fixes/fixed`, `close/closes/closed` or `resolve/resolves/resolved`, followed by the issue number, will close the issue once it is committed to the master branch.
+If a particular commit fixes an issue, any of the keywords `fix/fixes/fixed`, `close/closes/closed` or `resolve/resolves/resolved`, followed by the issue number, will close the issue once it is committed to the repository's default branch.
 
 ```bash
 $ git commit -m "Fix screwup, fixes #12"
@@ -1023,7 +1023,6 @@ $ git config --global color.ui 1
 | Everyday Git | http://git-scm.com/docs/everyday |
 | Git Immersion | http://gitimmersion.com/ |
 | Git God | https://github.com/gorosgobe/git-god |
-| Ry's Git Tutorial | http://rypress.com/tutorials/git/index |
 | Git for Computer Scientists | http://eagain.net/articles/git-for-computer-scientists/ |
 | Git Magic | http://www-cs-students.stanford.edu/~blynn/gitmagic/ |
 | GitHub Training Kit | https://training.github.com/kit/ |
