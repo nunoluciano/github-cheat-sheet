@@ -55,6 +55,7 @@ A collection of cool hidden and not so hidden features of Git and GitHub. This c
     - [GitHub Resources](#github-resources)
       - [GitHub Talks](#github-talks)
     - [SSH keys](#ssh-keys)
+    - [Repository Templates](#repository-templates)
   - [Git](#git)
     - [Remove All Deleted Files from the Working Tree](#remove-all-deleted-files-from-the-working-tree)
     - [Previous Branch](#previous-branch)
@@ -76,6 +77,7 @@ A collection of cool hidden and not so hidden features of Git and GitHub. This c
       - [Git Books](#git-books)
       - [Git Videos](#git-videos)
       - [Git Articles](#git-articles)
+
 
 ## GitHub
 ### Ignore Whitespace
@@ -646,6 +648,7 @@ If you are a student you will be eligible for the GitHub Student Developer Pack.
 | GitHub Training | https://training.github.com/ |
 | GitHub Developer | https://developer.github.com/ |
 | Github Education (Free Micro Account and other stuff for students) | https://education.github.com/ |
+| GitHub Top 10 Best Practices | [Best Practices List](https://datree.io/blog/top-10-github-best-practices/) |
 
 #### GitHub Talks
 | Title | Link |
@@ -667,6 +670,18 @@ https://github.com/{user}.keys
 e.g. [https://github.com/tiimgreen.keys](https://github.com/tiimgreen.keys)
 
 [*Read more about accessing public ssh keys.*](https://changelog.com/github-exposes-public-ssh-keys-for-its-users/)
+
+### Repository Templates
+
+You can enable templating on your repository which allows anyone to copy the directory structure and files, allowing them to instantly use the files (e.g. for a tutorial or if writing boilerplate code). This can be enabled in the settings of your repository.
+
+![Convert](https://i.postimg.cc/hGCrVm9F/Template.gif)
+
+Changing to a template repository will give a new URL endpoint which can be shared and instantly allows users to use your repository as a template. Alternatively, they can go to your repository and click the 'Use as template' button.
+
+![Template](https://i.postimg.cc/L8PKCHx0/New-Template.gif)
+
+[*Read more about using repositories as templates*](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/)
 
 ## Git
 ### Remove All Deleted Files from the Working Tree
